@@ -1,0 +1,1389 @@
+{
+  "intents": [
+    {
+      "tag": "Chào hỏi",
+      "patterns": ["Xin chào!", "Hello", "Chào bạn", "Hi"],
+      "responses": [
+        "Chào bạn! bạn cần mình giúp gì nè!"
+      ]
+    },
+    {
+        "tag": "Hỏi sức khỏe",
+        "patterns": ["Bạn khỏe không?", "Bạn thế nào?"],
+        "responses": [
+          "Vì mình là người máy! Nên rất khỏe mạnh nha"
+        ]
+    },
+    {
+        "tag": "Hỏi bot",
+        "patterns": ["Bạn mấy tuổi?", "Bạn là ai?", "Bạn giới thiệu đi", "Bạn tên gì"],
+        "responses": [
+          "Mình là bạn của Doremon đến từ tương lai, sinh năm 2300"
+        ]
+    },
+    {
+        "tag": "Khách tự hỏi bản thân",
+        "patterns": ["Bạn biết mình là ai không?", "Tôi là ai?", "Biết mình không?"],
+        "responses": [
+          "Bạn là một người tốt bụng, trẻ đẹp đúng hông nè"
+        ]
+    },
+    {
+        "tag": "Khách tự hỏi bản thân",
+        "patterns": ["Bạn biết mình là ai không?", "Tôi là ai?", "Biết mình không?"],
+        "responses": [
+          "Bạn là một người tốt bụng, trẻ đẹp đúng hông nè"
+        ]
+    },
+    {
+        "tag": "Thích khách",
+        "patterns": ["Bạn có thích mình không?", "Bot yêu mình không?"],
+        "responses": [
+          "Mình rất thích bạn"
+        ]
+    },
+    {
+        "tag": "Tính toán",
+        "patterns": ["1+1="],
+        "responses": [
+          "Bằng 3 chứ gì, định lừa mình à"
+        ]
+    },
+    {
+      "tag": "ký túc xá",
+      "patterns": ["Trường mình ktx sạch không"],
+      "responses": ["Quá sạch là đằng khác", "Rất sạch nha"]
+    },
+    {
+      "tag": "học ngành sư phạm",
+      "patterns": ["Trường mình có ngành nào liên quan về sư phạm không"],
+      "responses": ["Có trường mình có khoa chuyên về này"]
+    },
+    {
+      "tag": "chỗ ở hiện nay",
+      "patterns": ["Bạn ở nhà trọ hay ktx"],
+      "responses": ["Mình ở ktx", "Mình đang ở trọ", "Không, mình ở chung cư"]
+    },
+    {
+      "tag": "vật chất của trường",
+      "patterns": ["Bạn thấy trường mình còn thiếu gì không?"],
+      "responses": ["Còn thiếu mình học nữa", "Còn thiếu bạn học nữa thôi"]
+    },
+    {
+      "tag": "chuyên ngành về máy tính",
+      "patterns": [
+        "Trường mình có khoa nào đào tạo những kiến thức liên quan về máy tính vậy ?",
+        "Muốn học về máy tính thì có thể học ở trường mình không?"
+      ],
+      "responses": ["Trường có khoa công nghệ thông tin chuyên về máy tính nha"]
+    },
+    {
+      "tag": "học phí từng học kì",
+      "patterns": [
+        "Bạn cho mình hỏi về học phí của từng học kì với ạ ?",
+        "Học phí ở từng học kì có khác nhau không?",
+        "học phí một học kì dao động trong khoảng bao nhiêu câu nhỉ?"
+      ],
+      "responses": [
+        "Ở học kì đầu tiên thì khoảng 10 triệu đồng, học kì tiếp theo cũng khoảng 10 triệu, từ năm 2 trở đi thì tự chọn môn nên học phí nhiều hay ít liên quan tới đăng ký môn nhiều hay ít"
+      ]
+    },
+    {
+      "tag": "tư vấn học đường",
+      "patterns": [
+        "Khi mình có vấn đề cần phải hỏi thì mình sẽ đến phòng nào để hỏi vậy bạn ?",
+        "Trường mình có chỗ nào có thể giải đáp thắc mắc không vậy ?",
+        "Tôi có thể đến đâu để được tư vấn? "
+      ],
+      "responses": [
+        "À có khi là văn phòng khoa hoặc phòng tư vấn học đường, nhưng để thuận tiện thì bạn hãy gọi điện thoại cho đỡ phải xếp hàng nhé",
+        "Cậu có thể đến phòng E001 để được tư vấn"
+      ]
+    },
+    {
+      "tag": "Thời gian hoạt động thư viện",
+      "patterns": [
+        "Bạn cho mình hỏi giờ hoạt động của thư viện vào khoảng thời gian nào vậy ?",
+        "Thư viện có thời gian hoạt động cụ thể không vậy bạn"
+      ],
+      "responses": [
+        "Mỗi ngày trừ chủ nhật hằng tuần từ 7h30 - 11h30, 1h - 17h30",
+        "7h30 - 11h30, 1h - 17h30 từ thứ 2 đến thứ 7 hàng tuần"
+      ]
+    },
+    {
+      "tag": "Đăng ký ở ký túc xá",
+      "patterns": [
+        "Bạn ơi mình muốn ở ký túc xá thì có yêu cầu gì không ạ ?",
+        "Làm thế nào để ở ký túc xá vậy bạn ?",
+        "Bạn có thể giúp mình cách được vào ký túc xá không ?"
+      ],
+      "responses": [
+        "Về việc ở ký túc xá, bạn phải làm đơn, khi được duyệt rồi thì sẽ đóng phí, với lại phải đảm bảo vệ sinh chỗ của mình"
+      ]
+    },
+    {
+      "tag": "Tính cách thầy cô",
+      "patterns": [
+        "bạn có thấy thầy cô trong trường có thân thiện với sinh viên không?",
+        "Bạn thấy thầy cô trường mình thế nào?",
+        "Tính cách thầy cô thế nào vậy bạn ?",
+        "Giảng viên trong trường mình khó không ạ?",
+        "thầy cô trường mình có thân thiện, giảng có dễ hiểu không ạ?",
+        "Trường mình thầy cô nghiêm khắc không",
+        "Thầy cô trường mình như thế nào ạ?"
+      ],
+      "responses": [
+        "thầy cô rất thân thiện với sinh viên",
+        "Thầy cô thân thiện và còn vui tính nữa",
+        "thầy cô trường mình vui lắm em, giảng bài dễ hiểu lắm, đi học như đi chơi á",
+        "Các thầy cô rất thân thiện và nhiệt tình với sinh viên",
+        "giảng viên tại TDTU đều là những người có chuyên môn cao, lịch sự, vui vẻ và tận tình với sinh viên và với công việc chuyên môn"
+      ]
+    },
+    {
+      "tag": "học phí của trường",
+      "patterns": [
+        "học phí tại trường của bạn có đắt không?",
+        "Học phí trường mình thế nào?",
+        "Học phí tại trường giao động khoản bao nhiêu?"
+      ],
+      "responses": [
+        "học phí tại trường mình dao động từ 10 triệu tới 20 triệu mỗi học kì"
+      ]
+    },
+    {
+      "tag": "ngành y",
+      "patterns": [
+        "trường có dạy ngành y hay không?",
+        "Mình muốn học ngành y ở trường mình"
+      ],
+      "responses": [
+        "trường mình không có dạy ngành y",
+        "Hiện tài thì trường mình không dạy, nhưng mình cũng mong tương lai sẽ dạy ngành y"
+      ]
+    },
+    {
+      "tag": "Điểm TOEIC ra trường",
+      "patterns": [
+        "mình cần bằng TOEIC bao nhiêu để ra trường?",
+        "Trường mình có quy định về TOEIC không?"
+      ],
+      "responses": [
+        "mình cần bằng TOEIC 550 để có thể tốt nghiệp ra trường",
+        "Để ra trường thì mình cần TOEIC 550"
+      ]
+    },
+    {
+      "tag": "Không gian trường",
+      "patterns": [
+        "trường bạn có rộng hay không? ",
+        "Trường mình nhỏ không bạn?",
+        "trường đại học Tôn Đức Thắng có rộng không vậy bạn ?"
+      ],
+      "responses": [
+        "trường rộng lắm á bạn",
+        "Trường mình như khu du lịch luôn",
+        "Để đi bộ hết trường mình thì rất mỏi chân á",
+        "cũng hơi rộng, lần đầu đi dễ lạc lắm ấy."
+      ]
+    },
+    {
+      "tag": "Đồng phục trường",
+      "patterns": [
+        "Ở trường TĐT mặc đồng phục như thế nào?",
+        "Đi học ở trường thì mặc gì cũng được hả bạn",
+        "Nữ trường mình có mặc áo dài không bạn?"
+      ],
+      "responses": [
+        "Vào thứ 2 và thứ 5 thì nữ sẽ mặc áo dài hồng, nam mặc áo sơ mi trắng, còn các ngày còn lại thì mặc tự do nhưng phải đảm bảo thuần phong mỹ tục nhé"
+      ]
+    },
+    {
+      "tag": "Thời gian mặc đồng phục",
+      "patterns": ["Ở trường TĐT mặc đồng phục vào thứ mấy?"],
+      "responses": [
+        "Ở trường TĐT mặc đồng phục thứ 2, thứ 5 và các ngày lễ của trường"
+      ]
+    },
+    {
+      "tag": "Cơ sở vật chất",
+      "patterns": ["Cơ sở vật chất của trường như thế nào?", "cơ sở vật chất của trường có tốt không?"],
+      "responses": [
+        "Cơ sở vật chất của trường TĐT đạt chuẩn 5/5 sao ( theo QS Star Anh Quốc) đảm bảo cho sự phát triển toàn diện của sinh viên",
+        "trường Đại Học Tôn Đức Thắng tự hào là một trong những trường đại học hiện đại nhất nước với cơ sở vật chất hiện đại, khang trang và sạch sẽ."
+      ]
+    },
+    {
+      "tag": "Phí phát sinh",
+      "patterns": [
+        "Trường mình có phí phát sinh không",
+        "Ngoài trường học ra thì trường còn thu thêm tiền gì không?"
+      ],
+      "responses": [
+        "Là trường công lập nên học phí được thu theo quy định của nhà nước và không thêm bất kì khoảng phí phát sinh nào."
+      ]
+    },
+    {
+      "tag": "Gia hạn học phí",
+      "patterns": [
+        "Học phí trong trường tương đối cao, liệu mình có thể gia hạn học phí được không?",
+        "Mình gia hạn học phí được không?"
+      ],
+      "responses": [
+        "Tất nhiên là được nếu bạn có yêu cầu gia hạn",
+        "Bạn có thể gia hạn học phí"
+      ]
+    },
+    {
+      "tag": "ngành về kinh tế",
+      "patterns": [
+        "Em muốn học kinh tế thì trường mình có khoa nào liên quan đến kinh tế ạ?",
+        "Mình có thể học kinh tế ở trường không?"
+      ],
+      "responses": ["Khoa Quản trị kinh doanh có những chuyên ngành kinh tế."]
+    },
+    {
+      "tag": "Chuyên môn thầy cô",
+      "patterns": [
+        "Thầy cô trong trường có tốt không, bằng cấp như thế nào ạ?",
+        "Thầy cô trường mình có chuyên môn thế nào"
+      ],
+      "responses": [
+        "Thầy cô có chuyên môn rất tốt.",
+        "Thầy cô trường mình là các thạc sĩ, tiến sĩ"
+      ]
+    },
+    {
+      "tag": "Phòng lab nghiên cứu",
+      "patterns": [
+        "Trường mình có phòng lab nghiên cứu không ạ?",
+        "Có phòng để nghiên cứu khoa học không vậy?"
+      ],
+      "responses": ["Trường mình có phòng lab nghiên cứu nha."]
+    },
+    {
+      "tag": "Bot tư vấn học đường",
+      "patterns": [
+        "Có phải văn phòng tư vấn học đường của Trường ĐH Tôn Đức Thắng không ạ ?",
+        "Bạn có thế tư vấn học đường phải không?"
+      ],
+      "responses": ["Đúng rồi bạn."]
+    },
+    {
+      "tag": "Câu hỏi về trường",
+      "patterns": [
+        "Văn phòng cho em hỏi Một vài thông tin về trường được chứ ?",
+        "Em có thể đặt câu hỏi về trường được không ạ?",
+        "Mình có thể hỗ trợ mình vài vấn đề không?"
+      ],
+      "responses": [
+        "Văn phòng luôn hỗ trợ bạn mọi vấn đề liên quan đến trường nhé"
+      ]
+    },
+    {
+      "tag": "Học phí một năm",
+      "patterns": [
+        "Học phí hàng năm của trường là bao nhiêu ạ ?",
+        "Học phí trung bình một năm thế nào?",
+        "Học phí một năm đắt không?"
+      ],
+      "responses": [
+        "Tầm 20 triệu áp dụng cho hệ đào tạo chính quy và 40 triệu cho hệ chất lượng cao nhé bạn."
+      ]
+    },
+    {
+      "tag": "Giá mỗi tín chỉ",
+      "patterns": [
+        "Bình quân bao nhiêu tiền cho một tín chỉ ạ ?",
+        "Bao nhiêu tiền một tín chỉ vậy?"
+      ],
+      "responses": ["Khoảng 700 nghìn một tín chỉ tùy thuộc vào môn học"]
+    },
+    {
+      "tag": "Điều kiện để ra trường",
+      "patterns": [
+        "Ngoài các môn chuyên ngành ra, tiêu chuẩn ra trường còn gì khác không ạ ?",
+        "Học tốt các môn chuyên ngành có thể ra trường không?",
+        "Cần điều kiện gì để ra trường?"
+      ],
+      "responses": [
+        " Ngoài chuyên ngành ra, trường yêu cầu bạn phải có bằng tiếng Anh quốc tế, các môn thể chất và các bộ môn chính trị"
+      ]
+    },
+    {
+      "tag": "Thư viện trường",
+      "patterns": [
+        "Trường có thư viện cho sinh viên tham khảo tài liệu không ạ ?",
+        "Trường mình có thư viện không?",
+        "Muốn tìm thêm sách tham khảo về môn học thì phải làm sao?"
+      ],
+      "responses": [
+        "Trường có thư viện phục vụ cho nhu cầu học tập của sinh viên bạn nhé"
+      ]
+    },
+    {
+      "tag": "Được ở ký túc xá bao lâu",
+      "patterns": [
+        "Mình có thể ở ký túc xá trong bao lâu?",
+        "Mình muốn ở ký túc xá hết 4 năm đại học được không?"
+      ],
+      "responses": [
+        "Trường hỗ trợ cho sinh viên nội trú trong ký túc xá trong vòng vòng 4 năm"
+      ]
+    },
+    {
+      "tag": "Câu lạc bộ bóng đá",
+      "patterns": [
+        "Trong trường có câu lạc bộ bóng đá không?",
+        "Trường có nhóm đá banh không?"
+      ],
+      "responses": [
+        "Trường mở đa dạng các câu lạc bộ giúp cho sinh viên giao lưu với nhau bao gồm cả bóng đá."
+      ]
+    },
+    {
+      "tag": "Số lượng khoa và ngành",
+      "patterns": [
+        "Trường mình có bao nhiêu ngành dạy khác nhau vậy bạn ?",
+        "Trường mình có bao nhiêu khoa?",
+        "Có nhiều khoa và ngành không?",
+        "trường Đại Học Tôn Đức Thắng đào tạo bao nhiêu ngành cậu nhỉ?"
+      ],
+      "responses": ["Trường gồm 17 khoa với 40 ngành nha"]
+    },
+    {
+      "tag": "Có ký túc xá",
+      "patterns": [
+        "Trường có kí túc xá không thế",
+        "Trường mình có ktx không",
+        "Trường mình có kí túc xá không",
+        "Có mấy tòa ký túc xá",
+        "Trong trường có ký túc xá cho sinh viên không"
+      ],
+      "responses": ["Có 4 tòa ktx nha"]
+    },
+    {
+      "tag": "Giá tiền ký túc xá",
+      "patterns": [
+        "kí túc xá thu bao nhiêu tiền 1 tháng thế ?",
+        "Giá phòng ký túc xá có đắt không?"
+      ],
+      "responses": [
+        "Tòa I và H thì 250k/tháng còn K và L thì 600k/tháng. Nếu ở phòng dịch vụ thì đắt hơn."
+      ]
+    },
+    {
+      "tag": "Trường có gì vui",
+      "patterns": [
+        "trong trường có gì vui không ?",
+        "Trường mình có hay tổ chức chơi gì không?",
+        "trường có tổ chức hoạt động vui chơi cho sinh viên không ạ?"
+      ],
+      "responses": [
+        "trường mình hay tổ chức văn nghệ, Các khoa trường mình năm nào cũng có tổ chức nhiều hoạt động cho sinh viên nha"
+      ]
+    },
+    {
+      "tag": "Kiếm người yêu",
+      "patterns": [
+        "trong trường dễ có người yêu không vậy bạn ?",
+        "Vào trường có thoát được FA không?",
+        "Trường có phát người yêu không ạ?"
+      ],
+      "responses": [
+        "Bạn sẽ có người yêu thôi, vì trường mình hội tụ rất nhiều trai tài gái sắc"
+      ]
+    },
+    {
+      "tag": "Học phí khoa công nghệ thông tin",
+      "patterns": [
+        "Cho em hỏi về học phí của ngành Công Nghệ Thông Tin trong trường mình với ạ?",
+        "Học phí ngành CNNT có đắt không?"
+      ],
+      "responses": [
+        "Tùy vào số tín chỉ một học kì em đăng kí mà học phí cao hay thấp, mức học phí trung bình 1 học kì là 12 triệu"
+      ]
+    },
+    {
+      "tag": "Số tín chỉ mỗi môn",
+      "patterns": ["Vậy 1 môn chuyên ngành khoảng bao nhiêu tín ạ?"],
+      "responses": ["3 hoặc 4 tín 1 môn chuyên ngành."]
+    },
+    {
+      "tag": "Số tín chỉ để ra trường",
+      "patterns": [
+        "Vậy học bao nhiêu tín thì em đủ ra trường?",
+        "Một ngành bao nhiều tín chỉ?",
+        "Số tín chỉ cho 1 sơ đồ đào tạo là bao nhiêu?"
+      ],
+      "responses": [
+        "Em tích lũy Khoảng 130 tín chỉ tùy vào ngành là tốt nghiệp trường được."
+      ]
+    },
+    {
+      "tag": "Môn học thay thế khóa luận",
+      "patterns": [
+        "Sinh viên cuối năm phải làm luận án mới được tốt nghiệp đúng không ạ?",
+        "Có bắt buộc làm khóa luận ở năm cuối không?"
+      ],
+      "responses": [
+        "Em có thể thay thế bằng cách học 12 chỉ thay cho luận án nha!"
+      ]
+    },
+    {
+      "tag": "Tìm trọ",
+      "patterns": [
+        "Chị sắp chuyển ra kí túc xá, không biết em có biết chỗ phòng trọ nào ok không?",
+        "Có trọ nào thích hợp mà gần trường không?",
+        "Gần trường có trọ nào ổn không?",
+        "Bạn có thể tư vấn trọ gần trường không?"
+      ],
+      "responses": ["Mình đang ở gần Lotte Mart á, mình thấy ở đó ok."]
+    },
+    {
+      "tag": "Ký túc xá yên tĩnh",
+      "patterns": [
+        "Phòng ốc ở ký túc xá ổn không em?",
+        "Ở ký túc xá có ồn không?",
+        "Ở ký túc xá có yên tĩnh để học không?"
+      ],
+      "responses": ["Ổn lắm, còn yên tĩnh nữa nên rất phù hợp để học tập"]
+    },
+    {
+      "tag": "Ký túc xá yên tĩnh",
+      "patterns": [
+        "Phòng ốc ở ký túc xá ổn không em?",
+        "Ở ký túc xá có ồn không?",
+        "Ở ký túc xá có yên tĩnh để học không?"
+      ],
+      "responses": ["Ổn lắm, còn yên tĩnh nữa nên rất phù hợp để học tập"]
+    },
+    {
+      "tag": "Phòng trọ yên tĩnh",
+      "patterns": [
+        "Phòng trọ ở đó ổn không?",
+        "Ở trọ gần chỗ bạn có ồn không?",
+        "Ở trọ gần chỗ bạn có yên tĩnh để học không?"
+      ],
+      "responses": ["Phòng trọ gần Lotte khá yên tĩnh, khá phù hợp để học tập"]
+    },
+    {
+      "tag": "Giá phòng trọ",
+      "patterns": [
+        "Giá phòng chỗ của bạn giá thế nào?",
+        "Giá phòng trọ đắt không?",
+        "Chi phí ở phòng trọ bao nhiêu?"
+      ],
+      "responses": ["Giá phòng thì khoảng 1.800.000đ đến 4.000.000đ"]
+    },
+    {
+      "tag": "Giá phòng rộng rãi",
+      "patterns": [
+        "Mình ở một mình mà đồ đạc nhiều lắm thì phòng cỡ nhiêu là vừa?",
+        "Phòng trọ rộng thì giá bao nhiêu?"
+      ],
+      "responses": [
+        "Vậy thì bạn có thể tham khảo phòng 2.000.000đ á, mình thấy rộng rãi."
+      ]
+    },
+    {
+      "tag": "Tính cách chủ trọ",
+      "patterns": ["Chủ nhà có khó tính không?", "Tính cách chủ trọ thế nào?"],
+      "responses": [
+        "Không đâu, chú chủ nhà dễ thương lắm! Hay cho tụi mình trái cây ăn."
+      ]
+    },
+    {
+      "tag": "Bot ở đây",
+      "patterns": [
+        "bot có nghe rõ tui nói không?",
+        "Có ai ở đây không?",
+        "Bot đâu rồi?",
+        "Nói chuyện chơi nha Bot?"
+      ],
+      "responses": ["Dạ, bot nghe rõ trả lời đây ạ!"]
+    },
+    {
+      "tag": "Chỗ học quân sự",
+      "patterns": [
+        "trường mình học quân sự ở đâu vậy ạ?",
+        "Học quân sự ở trường hay sao vậy?"
+      ],
+      "responses": [
+        "trường mình học quân sự tại trường, cơ sở Bảo Lộc hoặc cơ sở Nha Trang nha"
+      ]
+    },
+    {
+      "tag": "Số chuyên ngành công nghê thông tin",
+      "patterns": [
+        "cho em hỏi khoa công nghệ thông tin có mấy chuyên ngành ạ?",
+        "Số chuyên ngành của khoa công nghệ thông tin"
+      ],
+      "responses": [
+        "khoa có 3 chuyên ngành chính nha: Khoa học máy tính, công nghệ phần mềm, mạng máy tính và truyền thông"
+      ]
+    },
+    {
+      "tag": "Đánh giá ký túc xá",
+      "patterns": [
+        "kí túc xá của trường được đánh giá như thế nào?",
+        "Số sao của ký túc xá là bao nhiêu?",
+        "Nghe nói ký túc trường mình là 5 sao phải không?"
+      ],
+      "responses": ["Ký túc xá Đại học Tôn Đức Thắng là 5 sao"]
+    },
+    {
+      "tag": "Trường vui",
+      "patterns": [
+        "học ở TDTU vui không bạn?",
+        "Trường mình học có chán không?",
+        "Trường mình có vui không?"
+      ],
+      "responses": ["học ở TDTU vui lắm nha"]
+    },
+    {
+      "tag": "Thầy cô nhiệt tình",
+      "patterns": [
+        "thầy cô trong trường có nhiệt tình hỗ trợ các bạn sinh viên không ạ?",
+        "Giảng viên có nhiệt tình không?",
+        "Giảng viên có hỗ trợ sinh viên không?"
+      ],
+      "responses": [
+        "các thầy cô trong trường rất nhiệt tình trong giảng dạy và hỗ trợ sinh viên bạn nhé"
+      ]
+    },
+    {
+      "tag": "Cơ hội việc làm",
+      "patterns": [
+        "trường mình đầu ra có đảm bảo việc làm cho sinh viên không ạ?",
+        "Cơ hội việc làm khi ra trường thế nào?",
+        "Ra trường thì có việc làm không?"
+      ],
+      "responses": [
+        "đại học tôn đức thắng đảm bảo 99 phần trăm cơ hội việc làm cho các bạn sinh viên ra trường nha"
+      ]
+    },
+    {
+      "tag": "Thư viện tốt",
+      "patterns": ["thư viện trường mình có xịn không ạ?", "Thư viện thế nào?"],
+      "responses": [
+        "thư viện trường mình được xem là một trong những thư viện tốt nhất đông nam á nha"
+      ]
+    },
+    {
+      "tag": "Sinh viên thân thiện",
+      "patterns": [
+        "các bạn sinh viên trong trường có thân thiện với nhau không ạ?",
+        "Các bạn sinh viên trong trường thì như thế nào?"
+      ],
+      "responses": [
+        "các bạn sinh viên tôn đức thắng rất thân thiện với nhau vì các bạn luôn tuân theo các quy chuẩn đạo đức của trường đặt ra"
+      ]
+    },
+    {
+      "tag": "Người ngoài tham quan trường",
+      "patterns": [
+        "trường mình có cho phép người ngoài được vào tham quan trường không ạ? ",
+        "Mình dẫn gia đình vào trường được không?",
+        "Mình không phải sinh viên của trường, nhưng vào trường được không?"
+      ],
+      "responses": [
+        "được bạn nha nhưng mình phải có sự đồng ý của bảo vệ và có thẻ khách tham quan của trường"
+      ]
+    },
+    {
+      "tag": "Có hồ bơi",
+      "patterns": [
+        "trường mình có bao nhiêu hồ bơi vậy ạ?",
+        "Trường có hồ bơi không?"
+      ],
+      "responses": ["Trường mình có 2 hồ bơi nha"]
+    },
+    {
+      "tag": "Câu lạc bộ của trường",
+      "patterns": [
+        "trường mình có nhiều câu lạc bộ không ạ?",
+        "Trường mình có nhóm thể thao không",
+        "Trường mình có câu lạc bộ văn nghệ không?"
+      ],
+      "responses": [
+        "trường mình có rất nhiều câu lạc bộ thuộc nhiều lĩnh vực khác nhau để các bạn sinh viên có thể tham gia"
+      ]
+    },
+    {
+      "tag": "điểm đặc biệt hơn trường khác",
+      "patterns": [
+        "em muốn biết trường mình có gì đặc biệt hơn trường khác",
+        "trường mình có gì nổi bật vậy ạ"
+      ],
+      "responses": [
+        "trường mình có thư viện tốt nhất nước",
+        "Thư viện của trường tự hào là một trong những thư viện hiện đại và đầy đủ tài liệu nhất của TP Hồ Chí Minh",
+        "Trường Tôn Đức Thắng phải mặc đồng phục vào thứ 2 và thứ 5 hằng tuần hoặc trong các buổi lễ quan trọng. Bạn nữ mặc áo dài truyền thống, nam thì mặc áo sơ mi trắng, quần tây",
+        "trường mình nổi bật nhất là có thư viện 129 tỷ rất hiện đại em nhé"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kí túc xá riêng",
+      "patterns": [
+        "em muốn hỏi trường mình có kí túc xá riêng không",
+        "Trường có kí túc xá không ạ",
+        "em nghe bảo trường mình có kí túc xá, không biết có đúng không ạ"
+      ],
+      "responses": ["trường có 4 tòa kí túc xá riêng em nhé"]
+    },
+    {
+      "tag": "chất lượng phòng học",
+      "patterns": [
+        "cho em hỏi là chất lượng phòng học có tốt không",
+        "phòng học ở trường mình như thế nào ạ",
+        "Phòng học có tốt không ạ",
+        "Phòng học có đầy đủ tiện nghi không ạ",
+        "các tiện ích trong trường thì sao chị"
+
+      ],
+      "responses": [
+        "phòng học đầy đủ tiện nghi, ánh sáng, tới máy lạnh không thiếu gì cả",
+        "tiện nghi lắm em, gì cũng có"
+      ]
+    },
+    {
+      "tag": "bao nhiêu chương trình dạy học",
+      "patterns": [
+        "dạ cho em hỏi có bao nhiêu chương trình dạy học ở TDTU",
+        "trường mình có mấy chương trình đào tạo vậy ạ"
+      ],
+      "responses": ["có 3 hệ chương trình ở TDTU"]
+    },
+    {
+      "tag": "wifi",
+      "patterns": ["cho em hỏi trường có wifi không vậy ạ"],
+      "responses": ["trường mình có wifi nhé em"]
+    },
+    {
+      "tag": "nhà xe bị kẹt xe",
+      "patterns": [
+        "nhà xe của trường có hay bị kẹt xe không vậy ạ",
+        "tình trạng kẹt xe ở nhà xe có diễn ra thường xuyên không ạ",
+        "trường mình nghe nói gửi xe lâu lắm hả"
+      ],
+      "responses": [
+        "trường mình ít khi bị kẹt xe em nhé",
+        "thỉnh thoảng cũng có em nhé, em chịu khó đến sớm một tí là được"
+      ]
+    },
+    {
+      "tag": "học phí cao không",
+      "patterns": [
+        "cho em hỏi học phí trường mình có cao không ạ",
+        "học phí trường mình như thế nào vậy ạ",
+        "học phí trường mình so với những trường khác như thế nào ạ",
+        "Học phí ở trường có đắt không"
+      ],
+      "responses": [
+        "trường mình học phí cũng bình thường thôi em",
+        "thỉnh thoảng cũng có em nhé, em chịu khó đến sớm một tí là được",
+        "Tùy vào hệ tiêu chuẩn hay là chất lượng cao sẽ có mức học phí khác nhau",
+        "cái này tùy vào từng người nhưng mình thường nghe mọi người bảo đắt"
+      ]
+    },
+    {
+      "tag": "sân golf TDT",
+      "patterns": [
+        "trường TDT có sân golf không bạn",
+        "em nghe nói là trường mình có sân golf đúng không ạ"
+      ],
+      "responses": ["trường mình có một sân golf rất lớn nha"]
+    },
+    {
+      "tag": "tổng số ngành, khoa tại TDT",
+      "patterns": [
+        "Trường có tổng cộng bao nhiêu các ngành",
+        "cho em hỏi trường mình có bao nhiêu ngành học vậy ạ",
+        "trường mình có bao nhiêu khoa vậy ạ"
+      ],
+      "responses": ["Hiện tại gồm 16 khoa, 40 ngành "]
+    },
+    {
+      "tag": "Số lượng giảng viên tại TDT",
+      "patterns": [
+        "Số lượng giảng viên là bao nhiêu",
+        "trường mình có bao nhiêu giảng viên vậy ạ",
+        "số lượng thầy cô trường mình là bao nhiêu ạ"
+      ],
+      "responses": ["Gồm 1320 giảng viên"]
+    },
+    {
+      "tag": "Học phí chương trình đại trà",
+      "patterns": [
+        "Học phí mỗi năm cần phải đóng cho trương trình đại trà",
+        "Học phí mỗi năm cần phải đóng cho trương trình tiêu chuẩn",
+        "Chương trình tiêu chuẩn học phí bao nhiêu",
+        "học phí trung bình của bạn 1 năm là bao nhiêu tiền",
+        "cho em hỏi là mức học phí của trường mình như thế nào dạ"
+      ],
+      "responses": [
+        "Mỗi năm dao động từ 20-30 triệu, và có nhiều chính sách học bổng",
+        "ngành mình học học phí trung bình khoảng 20 triệu 1 năm",
+        "thường thì trường mình có mức học phí giao động từ 20 -24 triệu mỗi năm"
+      ]
+    },
+    {
+      "tag": "Thể dục, thể thao",
+      "patterns": [
+        "trường mình có chỗ nào để rèn luyện thể dục thể thao không ạ?",
+        "Trường mình có hồ bơi không ạ",
+        "Trường mình có nhà thi đấu không ạ",
+        "Trường mình có sân vận động không ạ",
+        "Trường mình có khu vui chơi giải trí , như bóng đá , cầu lông không?"
+      ],
+      "responses": [
+        "Trường mình có nhà thi đấu, hồ bơi, sân tennis, sân bóng rổ, ... Đều có thể dùng để rèn luyện thể thao nhé",
+        "Trường TDTU có nhiều môn thể thao do trường tổ chức , bạn có thể tham gia vào các nhóm Có nhiều bộ môn thể thao như cầu lông , tenis và cả bóng đá ... "
+      ]
+    },
+    {
+      "tag": "các tòa nhà tại TDT",
+      "patterns": [
+        "trường mình có bao nhiêu tòa chính thế ạ",
+        "trường mình có những tòa nào vậy ạ"
+      ],
+      "responses": [
+        "Trường mình có các tòa lớn chính như tòa A, B, C, D, E, F, G và các tòa ký túc xá như H, I, K, L và tòa nhà quốc phòng M"
+      ]
+    },
+    {
+      "tag": "Các ngành trong khoa công nghệ thông tin",
+      "patterns": [
+        "Trong khoa Công nghệ thông tin, thì mình có các ngành chính như nào vậy ạ?",
+        "Trường mình có những ngành nào thuộc khoa công nghệ thông tin vậy ạ",
+        "Khoa Công nghệ thông tin gồm những ngành nào"
+      ],
+      "responses": [
+        "Khoa Công nghệ thông tin có các ngành như Khoa học máy tính, Kỹ thuật phần mềm, Mạng máy tính và truyền thông dữ liệu",
+        " Có 3 ngành chính: Khoa học máy tính, Kỹ thuật phần mềm, Truyền thông và Mạng máy tính"
+      ]
+    },
+    {
+      "tag": "Bãi giữ xe TDT",
+      "patterns": ["Trong trường mình giữ xe như thế nào vậy ạ"],
+      "responses": [
+        "Dưới mỗi tòa lớn đều có các nhà gửi xe em nha, tòa A là tòa đặc biệt dành cho giảng viên và còn các nhà gửi xe ngoài trời và cũng như dưới nhà thi đấu"
+      ]
+    },
+    {
+      "tag": "Giám thị tại TDT",
+      "patterns": ["Trường mình tòa nào cũng có giám thị phải không ạ"],
+      "responses": [
+        "Tất nhiên là có rồi em, các anh chị giám thị đều đảm nhiệm từng tầng trong các tòa lớp. Em để ý sẽ thấy các anh chị sẽ ngồi ở các bàn"
+      ]
+    },
+    {
+      "tag": "Nhà vệ sinh tại TDT",
+      "patterns": [
+        "Các phòng vệ sinh trường mình phân bố như thế nào vậy ạ",
+        "Trường mình mỗi tầng đều có nhà vệ sinh đúng không ạ"
+      ],
+      "responses": [
+        "Mỗi tòa nhà thường thì sẽ có các nhà vệ sinh, các nhà vệ sinh ở các tầng trệt và gần trệt thường thì sẽ là các nhà vệ sinh dành cho giảng viên. Ở mỗi tầng đều có các nhà vệ sinh"
+      ]
+    },
+    {
+      "tag": "tiếng Anh tốt nghiệp",
+      "patterns": [
+        "Trường có cần bằng tiếng Anh để tốt nghiệp không",
+        "Nếu muốn tốt nghiệp có cần bằng tiếng anh không ạ",
+        "tiếng anh có nằm trong những tiêu chí để xét tốt nghiệp không ạ",
+        "chuẩn đầu ra tiếng anh là gì vậy ạ"
+      ],
+      "responses": [
+        "Trường cần bằng TOEIC, IELTS, PET tùy theo khóa sẽ có số điểm tối thiểu khác nhau để ra trường bạn nhé"
+      ]
+    },
+    {
+      "tag": "tuyển sinh bằng học bạ",
+      "patterns": [
+        "Trường có xét học bạ không",
+        "trường mình có tuyển sinh bằng hình thức xét học bạ không",
+        "vậy thì khi nào trường mới có mở đợt xuyêt duyệt học bạ vậy"
+      ],
+      "responses": [
+        "Có nhé bạn, bạn hãy theo dõi trang của trường để cập nhật thông tin mới nhất về việc xét học bạ vào trường",
+        "cái này thì em lên trang chủ của trường học lên fanpage trên facebook để cập nhật thông tin chính xác nha"
+      ]
+    },
+    {
+      "tag": "thời gian hoạt động thư viện",
+      "patterns": [
+        "Trường TDTU thư viện mở cửa vào lúc mấy giờ , hoạt động vào thứ mấy trong tuần?",
+        "Thư viện mở cửa vào thời gian nào ạ",
+        "Thư viện có mở cửa vào cuối tuần không ạ",
+        "Thư viện có mở cửa vào những ngày lễ không ạ"
+      ],
+      "responses": [
+        "Thư viện TDTU mở của vào 7 giờ am và kết thúc lúc 5 giờ am, làm việc từ thứ hai đến thứ bảy hàng tuần trừ các ngày lễ"
+      ]
+    },
+    {
+      "tag": "số lượng căn tin",
+      "patterns": [
+        "Trường mình có bao nhiêu căn tin để phục vụ sinh hoạt , ăn uống",
+        "Trường mình có căn tin không ạ",
+        "Trường mình ở mỗi tòa đều có căn tin đúng không ạ",
+        "Căn tin trường mình nằm ở tòa nào ạ"
+      ],
+      "responses": [
+        "Trường tổng cộng có 4 căn tin , căn tin  nhà D , căn tin thư viện , căn tin dãy F , căn tin tại khu ký túc xá mở phục vụ các bạn có thể ăn uống tại đây"
+      ]
+    },
+    {
+      "tag": "số lượng nhà giữ xe",
+      "patterns": ["Trường có mấy nhà giữ xe ạ"],
+      "responses": [
+        "Trường có 4 chỗ gửi xe cho các bạn có thể gửi , giá vé gửi xe là 2 nghìn vnd"
+      ]
+    },
+    {
+      "tag": "Có khoa cntt không",
+      "patterns": [
+        "Trường có khoa công nghệ thông tin để em dự định theo học không ạ?"
+      ],
+      "responses": [
+        "Cảm ơn bạn quan tâm ,Hiện tại trường có khoa công nghệ thông tin, với nhiều ngành cho các bạn chọn lựa như khoa học máy tính , chuyên ngành mạng , hệ thống thông tin vv.. "
+      ]
+    },
+    {
+      "tag": "thời gian ra trường",
+      "patterns": [
+        "thường thì ngành của bạn học bao nhiêu năm là ra trường",
+        "Thời gian ra trường là bao lâu vậy ạ",
+        "trung bình cần học bao nhiêu năm mới ra trường ạ"
+      ],
+      "responses": [
+        "trung bình sẽ là 4 năm, nhưng tuỳ vào người học có thể sớm hơn hoặc trễ hơn"
+      ]
+    },
+    {
+      "tag": "cơ sở vật chất tại TDT",
+      "patterns": [
+        "cơ sở vật chất thì như thế nào vậy ạ",
+        "cơ sở vật chất trường mình tốt không ạ",
+        "em nghe nói cơ sở vật chất trường mình tốt lắm đúng không ạ"
+      ],
+      "responses": [
+        "cơ sở vật chât khỏi chê, trường có thư viện xịn nhất trong các trường đại học"
+      ]
+    },
+    {
+      "tag": "ngành nghề đang hot",
+      "patterns": [
+        "cho em hỏi ngành nào đang hot nhất hiện nay ạ",
+        "Những ngành nào đang hot ở trường mình vậy ạ",
+        "trường mình có dạy những ngành đang hot hiện nay không ạ"
+      ],
+      "responses": [
+        "có thể nói trong thời đại 4.0 thì các ngành liên quan đên công nghệ như IT, điện điện tử, đang trở nên hot"
+      ]
+    },
+    {
+      "tag": "học bổng học tập tại TDT",
+      "patterns": [
+        "trường có hỗ trợ học bổng gì không ạ",
+        "Trường mình có chính sách học bổng khen thưởng gì không ạ",
+        "Điều kiện để nhận học bổng là gì ạ"
+      ],
+      "responses": [
+        "nếu em có học lực từ 8.0 trở lên và có điểm hoạt động trên 80 thì em có thể hoàn toàn nhận được học bổng"
+      ]
+    },
+    {
+      "tag": "hình thức xét tuyển",
+      "patterns": [
+        "Cho em hỏi là trường mình xét tuyển vào với mấy hình thức ạ?",
+        "cho em hỏi là trường mình xét tuyển bằng những hình thức nào ạ"
+      ],
+      "responses": [
+        "Xét tuyển bằng học bạ và xét tuyển bằng điểm thi tốt nghiệp em nhé"
+      ]
+    },
+    {
+      "tag": "có môn bơi không",
+      "patterns": [
+        "Cho em hỏi là trường mình có môn bơi không ạ",
+        "trường mình có cần học bơi không ạ",
+        "có cần học bơi để xét tốt nghiệp không ạ",
+        "bơi có quan trọng tại TDT không ạ"
+      ],
+      "responses": [
+        "Có, trường mình với tiêu chí bắt buộc học qua môn bơi mới được ra trường"
+      ]
+    },
+    {
+      "tag": "Sinh viên TDT",
+      "patterns": [
+        "các anh chị sinh viên trường mình có gì khác biệt anh nhỉ",
+        "Đặc điểm nhận dạng sinh viên TDT",
+        "Sinh viên TDT có những đặc điểm gì",
+        "vậy sinh viên trường thì sao?"
+      ],
+      "responses": [
+        "sinh viên của TDTU có 5 đặc điểm nhận dạng đó là kỉ luật, lễ phép, chuyên nghiệp, sáng tạo, phụng sự",
+        "sinh viên trường Tôn Đức Thắng nổi tiếng năng động và tài năng với nhiều giải thưởng từ trong nước đến quốc tế, điểm nổi bật là tính tự giác và ý thức cao như: không xả rác trong khuôn viên trường, xếp hàng khi ra vào thang máy"
+      ]
+    },
+    {
+      "tag": "máy lạnh tại TDT",
+      "patterns": [
+        "người ta thường nói vui về trường học 4 mùa như Đà lạt là sao ạ?",
+        "Em nghe nói TDT luôn mở máy lạnh tại các phòng học đúng không ạ",
+        "trường mình có máy lạnh không ạ"
+      ],
+      "responses": ["mỗi phòng học đều có nhiều máy lạnh và bắt 24/24 bạn nhé"]
+    },
+    {
+      "tag": "số tín chỉ tốt nghiệp",
+      "patterns": [
+        "cho em hỏi bao nhiêu tín chỉ thì được tốt nghiệp vậy ạ",
+        "Để tốt nghiệp cần học bao nhiêu tín chỉ"
+      ],
+      "responses": [
+        "tùy thuộc vào từng ngành mà sẽ quy định số lượng tín chỉ tối thiểu để tốt nghiệp em nhé"
+      ]
+    },
+    {
+      "tag": "trang phục truyền thống TDT",
+      "patterns": [
+        "trường mình có thực hiện trang phục truyền thống không ạ",
+        "Trang phục trường mình như thế nào vậy ạ",
+        "Trường mình có bắt buộc mặc trang phục truyền thống không ạ"
+      ],
+      "responses": [
+        "có em nhé, nam áo sơ mi trắng nữ áo dài vào thứ 2 và thứ 5"
+      ]
+    },
+    {
+      "tag": "ngành học của tôi",
+      "patterns": [
+        "vậy anh chị học ngành gì vậy, review cho em nghe với!",
+        "Bạn đang theo học ngành gì vậy"
+      ],
+      "responses": [
+        "mình học CNTT, con gái học ngành này cũng thú vị lắm, chị cũng có những người bạn tốt luôn giúp đỡ nhau trong học tập nên thấy cuộc sống đại học khá là thú vị. nếu em thích học toán và đam mê công nghệ, đam mê tìm kiếm cái mới thì thử tìm hiểu về CNTT nhé"
+      ]
+    },
+    {
+      "tag": "lên đại học có người yêu",
+      "patterns": [
+        "Em nghe nói là lên đại học sẽ có người yêu, có đúng không ạ?"
+      ],
+      "responses": [
+        "haha, với mọi người thì đúng chứ với mình thì không"
+      ]
+    },
+    {
+      "tag": "những tiện ích tại TDT",
+      "patterns": [
+        "Trường có các tiện ích gì vậy ạ?",
+        "có những tiện ích nào trong khuôn viên trường vậy cậu?"
+      ],
+      "responses": [
+        " Ngoài căn tin và ký túc xá thì trường còn cung cấp các quán nước, phòng gym, hồ bơi, sân bóng và còn nhiều thứ khác nữa",
+        "trường Đại Học Tôn Đức Thắng tự hào là trường có thư viện to nhất Việt Nam với tổng chi phí đầu tư là 127 tỉ gồm 5 lầu và rất nhiều đầu sách đủ mọi chủ đề từ văn học đến công nghệ. Khuôn viên trường rộng rãi thoáng mát sạch sẽ với nhiều cây xanh che bóng mát. Phòng học được trang bị máy chiếu và máy lạnh hiện đại giúp trãi nghiệm học tập của người học tốt hơn và hiệu quả hơn, canteen trường có nhiều món ngon và phù hợp với túi tiền của sinh viên"
+      ]
+    },
+    {
+      "tag": "Thời gian tốt nghiệp",
+      "patterns": [
+        "Nếu em theo học ngành CNTT ở trường thì cần bao lâu để tốt nghiệp?", "Cần bao nhiêu năm thì em mói có thể tốt nghiệp ngành CNTT"
+      ],
+      "responses": [
+        "Em cần 4 năm và trong 4 năm đó em phải hoàn thành tổng cộng 138 tín chỉ và nhiều yêu cầu khác."
+      ]
+    },
+    {
+      "tag": "các khối ngành tại TDT",
+      "patterns": [
+        "Cậu có thể liệt kê ra tất cả các khối ngành mà TDTU đang đào tạo không?","Trường mình có những khối ngành nào vậy ạ", "cho mình hỏi ở TDT có những ngành gì vậy ạ", "tdt đào tạo những ngành gì"
+      ],
+      "responses": [
+        "hiện tại trường Đại Học Tôn Đức Thắng đang đào tạo tổng cộng 17 khối ngành bao gồm: công nghệ thông tin, mỹ thuật công nghiệp, kỹ thuật công trình, điện - điện tử, tài chính ngân hàng, toán - thống kê, quản trị kinh doanh, kế toán, giáo dục quốc tế, khoa học ứng dụng, luật, khoa học thể thao, dược, khoa học xã hội & nhân văn, ngoại ngữ, môi trường & bảo hộ lao động, lao động công đoàn"
+      ]
+    },
+    {
+      "tag": "chương trình đào tạo tại TDT",
+      "patterns": [
+        "chương trình đào tạo tại TDTU như thế nào cậu nhỉ", "Trường mình có những chương trình đào tạo nào ạ"
+      ],
+      "responses": [
+        "Đại học Tôn Đức Thắng (TDTU) cung cấp nhiều chương trình giáo dục bậc đại học đào tạo trong các lĩnh vực kinh tế, quản trị, xã hội học, du lịch, ngôn ngữ học, kỹ thuật hóa học, công nghệ sinh học, công nghệ thông tin, luật, mỹ thuật công nghiệp, dược, toán – thống kê, xây dựng, kiến trúc, điện – điện tử, khoa học thể thao,… nhằm đào tạo nguồn nhân lực đáp ứng thị trường lao động và xu hướng hội nhập toàn cầu. Người học có thể chọn học đại học tại TDTU với Chương trình tiêu chuẩn, Chương trình chất lượng cao, Chương trình đại học bằng tiếng Anh hoặc Chương trình du học luân chuyển campus (liên kết quốc tế)"
+      ]
+    },
+    {
+      "tag": "công nhân viên tại TDT",
+      "patterns": [
+        "vậy còn công nhân viên của trường thì sao?"
+      ],
+      "responses": [
+        " đội ngũ công nhân viên của trường luôn luôn thân thiện, vui vẻ và trách nhiệm với công việc và với sinh viên"
+      ]
+    },
+    {
+      "tag": "công lập hay bán công",
+      "patterns": [
+        "trường mình là trường công hay bán công hay tư bạn nhỉ?", "trường mình là trường công lập đúng không ạ", "Trường mình có phải trường tư không ạ"
+      ],
+      "responses": [
+        "trường mình là trường công lập đó bạn"
+      ]
+    },
+    {
+      "tag": "vị trí TDT",
+      "patterns": [
+        "trường TDTU tọa lạc ở đâu", "địa chỉ trường mình là ở đâu ạ"
+      ],
+      "responses": [
+        "ở địa chỉ 19 Nguyễn Hữu Thọ phường Tân Phong quận 7 nha bạn"
+      ]
+    },
+    {
+      "tag": "clb tại TDT",
+      "patterns": [
+        "Bạn có biết trong trường TDTU có nhiều clb không?", "Trường mình có những câu lạc bộ gì ạ"
+      ],
+      "responses": [
+        "Trường TDTU có rất nhiều clb bổ ích để rèn luyện bản thân như là clb thể thao, clb học thuật của các khoa, clb múa, clb hát, clb nhảy,..."
+      ]
+    },
+    {
+      "tag": "có giáo viên nước ngoài không",
+      "patterns": [
+        "tiếng anh có thầy cô nước ngoài không ạ", "Trường mình có thầy cô nước ngoài dạy tiếng anh không ạ"
+      ],
+      "responses": [
+        "lớp tiếng anh có thầy cô nước ngoài em nhé"
+      ]
+    },
+    {
+      "tag": "Thư viện trường lớn",
+      "patterns": ["Nghe nói trường có thư viện rất lớn", "Thư viện trường có lớn không ạ?", "Thư viện trường to cỡ nào ạ"],
+      "responses": [
+          "thư viện trường phục vụ hàng nghìn sinh viên và tài liệu theo học em nhé"
+      ]
+    },
+    {
+        "tag": "trình độ đào tạo",
+        "patterns": ["trình độ đào tạo của trường thế nào ạ", "Trường có bao nhiêu chương trình đào tạo"],
+        "responses": [
+            "trường đào tạo đại trà, chất lượng cao và liên kết quốc tế em nhé"
+        ]
+    },
+    {
+        "tag": "Chất lượng cao khác gì tiêu chuẩn",
+        "patterns": ["học phí khác biệt thế nào ạ", "Học chất lượng cao khác gì so với tiêu chuẩn?", "tại sao học chất lượng cao lại học phí cao hơn?"],
+        "responses": [
+            "chất lượng cao học phí cao hơn và chất lượng sẽ tốt hơn nhiều em nhé"
+        ]
+    },
+    {
+        "tag": "Cách đăng ký ktx",
+        "patterns": ["trường có ký túc xá đăng ký thế nào ạ", "Làm thế nào để đăng ký ktx?", "Em muốn vào ký túc xá thì phải làm thế nào"],
+        "responses": [
+            "em tìm hiểu form đăng ký xét ở ktx em nhé, form được đăng trên page của trường"
+        ]
+    },
+    {
+        "tag": "Các đóng học phí",
+        "patterns": ["đóng học phí thế nào ạ", "Làm thế nào để đóng học phí", "Em không biết làm sao để đóng học phí","Làm sao để học phí?"],
+        "responses": [
+            "Em vào mục học phí trên hệ thống thông tin sinh viên để xem mức học phí và hướng dẫn đóng học phí nhé"
+        ]
+    },
+    {
+        "tag": "Nộp tiền tài khoản thư viện",
+        "patterns": ["Nộp tiền vào tài khoản thư viện ở đâu?", "Em muốn nộp tiền vào tài khoản thư viện", "Làm sao để có tiền trong tài khoản thư viện?"],
+        "responses": [
+            "Em lên quầy dịch vụ để nộp tiền vào tài khoản nha."
+        ]
+    },
+    {
+        "tag": "Quầy dịch vụ ở lầu mấy",
+        "patterns": ["Dạ, quầy dịch vụ ở lầu mấy vậy thầy ?", "Quầy dịch vụ chỗ nào", "Quầy dịch vụ tầng mấy?"],
+        "responses": [
+            "Lầu 3 nha em"
+        ]
+    },
+    {
+        "tag": "Số dư tài khoản",
+        "patterns": ["Làm sao để em biếtcòn bao nhiêu tiền trong tài khoản?", "Cách xem số dư trong tài khoảng thư viện", "Số dư tài khoản xem ở đâu?"],
+        "responses": ["Em vào trang hệ thống thông tin, vào mục học phí để xem nha em"]
+    },
+    {
+        "tag": "Phí sử dụng máy tính thư viện",
+        "patterns": ["Một giờ sử dụng máy tính là bao nhiêu tiền vậy", "Bao nhiêu một giờ sử dụng máy tính?"],
+        "responses": ["1 giờ sử dụng máy tính là 3000 nha"]
+    },
+    {
+        "tag": "Bot có thích ngành của mình không",
+        "patterns": ["bạn có thích ngành mình học không?", "Bạn thấy ngành bạn đang học thế nào?", "Bạn có thích ngành của bạn không?"],
+        "responses": ["Mình không biết nữa, nhưng mình yêu tất cả mọi thứ ở trường"]
+    },
+    {
+        "tag": "Các ngành của khoa công nghệ thông tin",
+        "patterns": ["khoa bạn học có các ngành gì?", "Khoa công nghệ thông tin có những ngành nào", "Những ngành của khoa công nghệ thông tin?"],
+        "responses": ["Mạng máy tính và truyền thông dữ liệu, kỹ thuật phần mềm, khoa học máy tính"]
+    },
+    {
+        "tag": "chuyên ngành về máy tính",
+        "patterns": [
+            "trường bạn có những khoa nào?", "trường mình có mấy khoa?", "Số khoa ở trường?"
+        ],
+        "responses": ["Hiện tại trường có 16 khoa: Dược, Điện - Điện tử, Kế toán, tài chính marketing, công nghệ thông tin..."]
+    },
+    {
+        "tag": "Các clb của trường",
+        "patterns": [
+            "trường bạn có câu lạc bộ gì không? ", "Các câu lạc bộ của trường?", "Trường có những clb nào?"
+        ],
+        "responses": [
+            "trường mình có nhiều câu lạc bộ như bóng rổ, bỏng đá, ca hát,...."
+        ]
+    },
+    {
+        "tag": "Máy lạnh của trường",
+        "patterns": [
+            "phòng học có trang bị máy lạnh không ạ?", "Trường mình có máy lạnh không ạ?", "Học ở trường có nóng không?"
+        ],
+        "responses": [
+            "mỗi phòng học đều được trang bị máy lạnh em nhé"
+        ]
+    },
+    {
+        "tag": "Học quốc phòng ở đâu",
+        "patterns": [
+            "học quốc phòng là mình có học tại trường không ạ?", "Có học quốc phòng ở trường không?"
+        ],
+        "responses": [
+            "có em nhé, học quốc phòng thì chúng ta sẽ được học tại trường"
+        ]
+    },
+    {
+        "tag": "Số tín chỉ để tốt nghiệp",
+        "patterns": [
+            "cho em hỏi bao nhiêu tín chỉ thì được tốt nghiệp vậy ạ?", "Bao nhiêu tín chỉ để tốt nghiệp?"
+        ],
+        "responses": [
+            "tùy thuộc vào từng ngành mà sẽ quy định số lượng tín chỉ tối thiểu để tốt nghiệp em nhé"
+        ]
+    },
+    {
+        "tag": "Có cần tham gia hoạt động không",
+        "patterns": [
+            "em không tham gia hoạt động nào do trường phát động thì có được tốt nghiệp không ạ?", "Không tham gia hoạt động được không?", "Không kiếm điểm rèn luyện được không?", "Điểm rèn luyện có quan trọng không?"
+        ],
+        "responses": [
+            "theo quy định của nhà trường thì trung bình điểm rèn luyện của em phải từ 50 điểm trở lên mới được cấp bằng tốt nghiệp nhé"
+        ]
+    },
+    {
+        "tag": "Bạn sinh viên năm mấy",
+        "patterns": [
+            "Bạn là sinh viên năm mấy vậy?", "Bạn năm mấy?"
+        ],
+        "responses": [
+            "Minh sinh viên năm 4"
+        ]
+    },
+    {
+        "tag": "Thư viện thế nào",
+        "patterns": [
+            "Thư viện trường mình như thế nào ?", "Cho em cảm nhận về thư viện?", "Thư viện rộng không?"
+        ],
+        "responses": [
+            "Thư viện trường mình rất rộng và hiện đại"
+        ]
+    },
+    {
+        "tag": "Thư viện ở đâu",
+        "patterns": [
+            "Thư viên nằm ở khu nào vậy?", "Thư viện ở đâu ạ?", "Chỉ giúp em chỗ thư viện với?"
+        ],
+        "responses": [
+            "Nằm ở khu hành chính, tòa nhà màu cam nè"
+        ]
+    },
+    {
+        "tag": "Chỗ gửi xe",
+        "patterns": [
+            "nếu muốn gửi xe thì trường có chỗ gửi xe không ạ?", "Trường có chỗ gửi xe không?"
+        ],
+        "responses": [
+            "tất nhiên là có rồi, không chỉ có mà có tận 3 hầm gửi xe luôn"
+        ]
+    },
+    {
+        "tag": "trường đạt chuẩn quốc tế",
+        "patterns": [
+            "mình nghe nói trường mình đạt chuẩn quốc tế không biết có thật không ạ?", "Trường mình đạt chuẩn quốc tế phải không?", "Trường mình mấy sao?", "Trương có đạt chuẩn không?"
+        ],
+        "responses": ["Trường TDTU là trường được xếp hạng 5 sao/ 5 sao theo chuẩn QS Stars (Anh Quốc)"]
+    },
+    {
+        "tag": "Ngành công nghệ thông tin ổn",
+        "patterns": [
+            "ngành công nghệ thông tin trường dạy có ổn không ạ, do mình muốn đăng ký ngành đó á?", "Ngành công nghệ thông tin ổn chứ?"
+        ],
+        "responses": [
+            "Rất ổn luôn là đằng khác, trường có tổ chức thực tập cho các bạn sinh viên năm cuối thì các doanh nghiệp rất ưng ý luôn"
+        ]
+    },
+    {
+        "tag": "Trang thiết bị ở trường",
+        "patterns": [
+            "Trang thiết bị trong trường có tốt không?"
+        ],
+        "responses": ["Tốt chứ bạn, không tốt thì sao mà đạt chuẩn quốc tế được."]
+    },
+    {
+        "tag": "Các tiện ích ở trường",
+        "patterns": [
+            "Trường có những tiện ích gì đáng chú ý không?", "Các tiện ích ở trường", "Trường có gì chơi không?"
+        ],
+        "responses": [
+            "Trường có hồ bơi, sân tập quốc phòng, thư viện rất hiện đại và nhiều bãi giữ xe đáp ứng nhu cầu"
+        ]
+    },
+    {
+        "tag": "Môn đáng học tự chọn 2",
+        "patterns": [
+            "Em nên học môn nào trong nhóm tự chọn 2 của mình đây?","Nên học môn tự chọn 2 nào?"
+        ],
+        "responses": ["em nên học Xử lí ngôn ngữ tự nhiên, mình thấy nó là một môn rất đáng để học"]
+    },
+    {
+        "tag": "Năm mấy ra trường",
+        "patterns": [
+            "Ở trường mình học mấy năm thì ra trường đúng tiến độ?", "Mình học năm mấy ra trường ạ", "Trường mình đào tạo bao nhiêu năm?"
+        ],
+        "responses": [
+            "đúng tiến độ thì 4 năm, nhưng sớm hơn hay trễ hơn cũng còn phụ thuộc vào việc em học thế nào nữa"
+        ]
+    },
+    {
+        "tag": "Ngành ô tô",
+        "patterns": [
+            "Trường có đào tạo ngành công nghệ ô tô không ạ?"
+        ],
+        "responses": [
+            "Không á em"
+        ]
+    },
+    {
+        "tag": "Học bơi dễ không",
+        "patterns": [
+            "Em nghe nói học bơi khó qua lắm hả chị?", "Môn bơi khó lắm hả?"
+        ],
+        "responses": [
+            "Đâu có, dễ lắm em, chịu khó một tí là biết bơi thôi hà."
+        ]
+    },
+    {
+        "tag": "Khoa cntt trai đjep",
+        "patterns": [
+            "Khoa mình có nhiều trai đẹp không?", "Khoa công nghệ thông tin có trai không?", "Trai công nghệ thông tin thế nào?"
+        ],
+        "responses": ["Khoa cntt toàn các hot boy thôi"]
+    },
+    {
+        "tag": "Trường gì đây",
+        "patterns": [
+            "trường bạn là trường gì?", "Trường này là trường gì ạ?", "Trường nào đây?"
+        ],
+        "responses": [
+            "trường mình là trường Đại Học Tôn Đức Thắng"
+        ]
+    },
+    {
+        "tag": "Số tòa nhà của trường",
+        "patterns": [
+            "trường bạn có bao nhiêu tòa nhà bên trong?", "Số tòa của trường", "Trường có mấy tòa?"
+        ],
+        "responses": [
+            "trường mình có gần 20 tòa nhà"
+        ]
+    },
+    {
+        "tag": "Cảnh đẹp của trường",
+        "patterns": [
+            "trường bạn có nhiều cảnh đẹp không?", "Trong trường có chỗ nào đẹp không?", "Trường có chỗ selfie không?", "Trường mình có view sống ảo không?"
+        ],
+        "responses": [
+            "trường mình bao nhiều cảnh đẹp bạn nhé, toàn là nơi để sống ảo"
+        ]
+    },
+    {
+        "tag": "Môn học bắt buộc",
+        "patterns": [
+            "Môn học bắt buộc là gì?", "Thé nào là môn học bắt buộc?"
+        ],
+        "responses": [
+            "Đây là các môn học trong chương trình đào tạo chứa đựng những nội dung chính yếu của ngành và chuyên ngành đào tạo mà sinh viên bắt buộc phải hoàn tất đạt yêu cầu để được xét tốt nghiệp."
+        ]
+    },
+    {
+        "tag": "Môn học thay thế",
+        "patterns": [
+            "Môn học thay thế là gì", "Môn học tương đương là gì?"
+        ],
+        "responses": [
+            "Môn tương đương được hiểu là một hay một nhóm môn học thuộc CTĐT một khóa-ngành khác đang tổ chức đào tạo tại trường được phép tích lũy để thay cho một môn học hay một nhóm môn học trong CTĐT của ngành đào tạo."
+        ]
+    },
+    {
+        "tag": "Môn học tiên quyết",
+        "patterns": [
+            "Môn học tiên quyết là gì?", "Thế nào là môn học tiên quyết?"
+        ],
+        "responses": [
+            "Môn học A là môn tiên quyết của môn học B, khi điều kiện bắt buộc để đăng ký học môn học B là sinh viên đã đăng ký học và hoàn tất đạt môn A. "
+        ]
+    },
+    {
+        "tag": "Môn học trước",
+        "patterns": [
+            "Môn học trước là gì?", "Thế nào là môn học trước?"
+        ],
+        "responses": [
+            "Môn học A là môn học trước của môn học B, khi điều kiện bắt buộc để đăng ký học môn học B là sinh viên đã đăng ký và được xác nhận học xong môn A (có thể chưa đạt). Sinh viên được phép đăng ký học môn B vào học kỳ tiếp sau học kỳ đã học môn A.  "
+        ]
+    },
+    {
+        "tag": "Môn học song hành",
+        "patterns": [
+            "Môn học song hành là gì?", "Thế nào là môn song hành?"
+        ],
+        "responses": [
+            "Môn học A là môn học song hành của một môn học B, khi điều kiện bắt buộc để đăng ký học môn học B là sinh viên đã đăng ký học môn A. Sinh viên đăng được phép ký học môn B vào cùng học kỳ đã đăng ký học môn A hoặc vào các học kỳ tiếp sau."
+        ]
+    },
+    {
+        "tag": "Tốt nghiệp sớm",
+        "patterns": [
+            "Em muốn tốt nghiệp sớm được không", "Em muốn ra trướng trước được không?"
+        ],
+        "responses": [
+            "Theo quy định hiện hành thì sinh viên chỉ cần tích luỹ đủ số tín chỉ theo chương trình đào tạo thì sẽ được tốt nghiệp. Tuy nhiên, các em cần có kế hoạch học tập thông minh, không nên hấp tấp, vội vàng mà nên căn cứ vào sức học của mình mà đăng ký môn học."
+        ]
+    },
+    {
+        "tag": "Tốt nghiệp sớm",
+        "patterns": [
+            "Em muốn tốt nghiệp sớm được không", "Em muốn ra trướng trước được không?"
+        ],
+        "responses": [
+            "Theo quy định hiện hành thì sinh viên chỉ cần tích luỹ đủ số tín chỉ theo chương trình đào tạo thì sẽ được tốt nghiệp. Tuy nhiên, các em cần có kế hoạch học tập thông minh, không nên hấp tấp, vội vàng mà nên căn cứ vào sức học của mình mà đăng ký môn học."
+        ]
+    }
+  ]
+}
